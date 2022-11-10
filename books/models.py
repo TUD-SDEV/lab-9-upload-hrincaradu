@@ -14,9 +14,9 @@ class Book(models.Model):
     cover = models.ImageField(upload_to='covers/', blank=True)
 
 
-def __str__(self):
-    return self.title
+    def __str__(self):
+        return self.title
 
     
-def get_absolute_url(self):
-    return reverse('book_detail', args=[str(self.id)])
+    def get_absolute_url(self):
+        return reverse('book_detail', args=[str(self.id)])
