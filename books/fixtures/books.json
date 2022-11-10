@@ -1,0 +1,35 @@
+[
+    {
+        "model": "books.book",
+        "pk": "00164b40-51ac-4931-a845-9c9cf2d1f519",
+        "fields": {
+            "title": "book 2",
+            "author": "mark",
+            "price": "13.00",
+            "date_publication": "2022-11-08",
+            "cover": ""
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": "a06b9c09-c5e0-4703-923a-8c72cfb7a6a4",
+        "fields": {
+            "title": "book 3",
+            "author": "james",
+            "price": "14.00",
+            "date_publication": "2022-11-08",
+            "cover": ""
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": "c192e5b2-6cc1-4a62-816a-ca6d88223857",
+        "fields": {
+            "title": "book 1",
+            "author": "john",
+            "price": "12.00",
+            "date_publication": "2022-11-08",
+            "cover": "covers/PythonCookbook_XpYXvd4.jpg"
+        }
+    }
+]
